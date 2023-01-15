@@ -1,9 +1,10 @@
 ﻿// Массив из 10 чисел,заполняемый рандомно.
+
 void FillArray(int[]collection)
 {
     int length=collection.Length;
     int index=0;
-    While (index<length)
+    while (index<length)
     {
         collection[index]=new Random().Next(1,10);
         // index=index+1;
